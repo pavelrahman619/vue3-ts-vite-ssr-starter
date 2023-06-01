@@ -22,7 +22,7 @@ export default defineComponent({
             <tr>
               <th class="c-#67c23a">ID</th>
               <th class="c-#e6a23c">Name</th>
-              <th class="c-#79bbff">Price</th>
+              {/* <th class="c-#79bbff">Price</th> */}
             </tr>
           </thead>
 
@@ -32,7 +32,7 @@ export default defineComponent({
                 <tr key={item.id}>
                   <td class="c-#67c23a">{item.id}</td>
                   <td class="c-#e6a23c">{item.name}</td>
-                  <td class="c-#79bbff">{'$' + item.price}</td>
+                  {/* <td class="c-#79bbff">{'$' + item.price}</td> */}
                 </tr>
               );
             })}
