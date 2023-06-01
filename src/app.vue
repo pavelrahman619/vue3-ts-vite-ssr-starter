@@ -9,6 +9,7 @@
       <router-link :to="{ name: 'index' }">Go to Home</router-link>
       <router-link :to="{ name: 'user' }">Go to User</router-link>
       <router-link :to="{ name: 'market' }">Go to Market</router-link>
+      <router-link :to="{ name: 'menu' }">Go to Menu</router-link>
     </nav>
     <hr />
     <div class="container pt-12px pb-12px">

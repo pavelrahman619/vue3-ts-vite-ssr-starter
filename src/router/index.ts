@@ -20,6 +20,11 @@ export default function () {
         path: '/market',
         name: 'market',
         component: () => import('@/views/market')
+      },
+      {
+        path: '/menu',
+        name: 'menu',
+        component: () => import('@/views/menu')
       }
     ]
   });
